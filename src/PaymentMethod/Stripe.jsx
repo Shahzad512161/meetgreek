@@ -70,7 +70,8 @@ const SplitForm = ({ fontSize, amount }) => {
                     "cvc": cvc,
                     "custName": UserDetails.name,
                     "custEmail": UserDetails.email,
-                    "amount": amount
+                    "amount": amount,
+                    "currency": currency
                 }
             )
                 .then((res) => {
